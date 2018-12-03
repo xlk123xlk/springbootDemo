@@ -16,9 +16,4 @@ public class FirstSpringBootTest {
 	public String getString1() {
 		return "xlk and cy";
 	}
-	
-	@RequestMapping("/hello")
-	public String getString2() {
-		return "xlk and cy and kd";
-	}
 }
