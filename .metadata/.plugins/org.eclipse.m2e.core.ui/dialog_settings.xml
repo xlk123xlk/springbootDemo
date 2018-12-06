@@ -7,6 +7,11 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="microservice-consumer-movie-feign"/>
+			<item value="microservice-consumer-movie-ribbon"/>
+			<item value="microservice-provider-user"/>
+			<item value="microservice-discovery-eureka"/>
+			<item value="spring-cloud-microservice-study"/>
 			<item value="springbootTest"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -37,6 +42,8 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\springboot\springbootDemo\microservice-discovery-eureka\src\main\resources\application.yml"/>
+			<item value="D:\springboot\springbootDemo\spring-cloud-microservice-study"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
