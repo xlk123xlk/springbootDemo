@@ -1,0 +1,20 @@
+server:
+    port: 8050
+spring:
+    application:
+        name: microservice-api-gateway
+eureka:
+    client:
+      serviceUrl:
+        defaultZone: http://localhost:8761/eureka/  
+zuul:
+  #ignored-services: microservice-provider-user  
+  #隐藏microservice-provider-user服务，只能通过microservice-consumer-movie-ribbon去调用
+  routes:
+     test1:
+       path: /test1/**       
+       serviceId: microservice-consumer-movie-ribbon
+     test2:
+       path: /test2/**       
+       serviceId: microservice-consumer-movie-ribbon  
+     

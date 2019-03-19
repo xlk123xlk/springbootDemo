@@ -2,17 +2,29 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.dalaoyang"/>
+			<item value="testkafka"/>
+			<item value="testRedis"/>
 			<item value="com.xlk"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="springboot_upload_download"/>
+			<item value="testkafka"/>
+			<item value="testRedis"/>
+			<item value="springboot-first-application"/>
+			<item value="microservice-gateway-first-sight"/>
+			<item value="microservice"/>
+			<item value="microservice-api-gateway"/>
+			<item value="microservice-config-client"/>
+			<item value="microservice-config-server"/>
+			<item value="microservice-hystrix-turbine"/>
+			<item value="microservice-hystrix-dashboard"/>
 			<item value="microservice-consumer-movie-feign"/>
 			<item value="microservice-consumer-movie-ribbon"/>
 			<item value="microservice-provider-user"/>
 			<item value="microservice-discovery-eureka"/>
-			<item value="spring-cloud-microservice-study"/>
-			<item value="springbootTest"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -42,6 +54,9 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\springboot\springbootDemo\testRedis"/>
+			<item value="D:\springboot\springbootDemo\microservice-api-gateway"/>
+			<item value="D:\springboot\springbootDemo\microservice-consumer-movie-ribbon"/>
 			<item value="D:\springboot\springbootDemo\microservice-discovery-eureka\src\main\resources\application.yml"/>
 			<item value="D:\springboot\springbootDemo\spring-cloud-microservice-study"/>
 		</list>
