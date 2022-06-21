@@ -24,7 +24,7 @@
 		<dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.13</version><!--$NO-MVN-MAN-VER$-->
+            <version>8.0.28</version><!--$NO-MVN-MAN-VER$-->
         </dependency>
         
         <!-- 可以使用注解@Data 编译时自动生成get,set方法,构造函数,toString方法。 -->
